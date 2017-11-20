@@ -1,0 +1,33 @@
+<div class="panel panel-primary">
+	<div class="panel-body">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="data-center">图书管理系统</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<form class="form-horizontal" role="form">
+					<dov class="form-group">
+						<label class="col-md-2 control-label">用户名：</label>
+						<div class="col-md-10">
+							<input type="email" class="form-control" placeholder="推荐使用QQ邮箱" ng-model="userInfo.email">
+						</div>
+					</dov>
+					<dov class="form-group">
+						<label class="col-md-2 control-label">密码：</label>
+						<div class="col-md-10">
+							<input type="password" class="form-control" placeholder="只能是数据、字母" ng-model="userInfo.passWord">
+						</div>
+					</dov>
+					<dov class="form-group">
+						<div class="col-md-offset-2 col-md-10">
+							<a ui-sref="bookList({bookType:0})" class="btn btn-success btn-lg">登录</a>
+							<a href="#" class="btn btn-default btn-lg">注册</a>
+						</div>
+					</dov>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
